@@ -53,7 +53,6 @@
 //! ```
 //! use ndarray::prelude::*;
 //!
-//! # fn main() {
 //! // Create a 5×4 array of threes.
 //! let mut a = Array2::<f64>::from_elem((5, 4), 3.);
 //!
@@ -77,7 +76,6 @@
 //!
 //! // Matrix product of c transpose with c.
 //! let d = c.t().dot(&c);
-//! # }
 //! ```
 //!
 //! </td>
